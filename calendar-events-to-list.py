@@ -1,3 +1,9 @@
+# pip install
+# pip install urllib3
+# pip install fire
+# pip install pandas
+# pip install pickle
+# pip install ics
 import logging
 import os
 from datetime import date, datetime
@@ -15,7 +21,7 @@ today = datetime.today().strftime('%Y-%m-%d')
 print ("todays date --> ",today)
 
 # CHANGE THIS TO YOUR CALENDAR'S URL
-def main(output: Optional[str] = "my-output.csv", url: Optional[str] = "https://outlook.office365.com/owa/calendar/f2afb1b7c5f546e99216f1f44a2a3de4@computacenter.com/0040266b742f405793bdc0936b7ea1e08614475412096594539/calendar.ics"):
+def main(output: Optional[str] = "my-output.csv", url: Optional[str] = "ENTER YOUR URL HERE"):
     if not url:
         logger.error("URL argument or CAL_ICS_URL env variable must be set")
         quit()
