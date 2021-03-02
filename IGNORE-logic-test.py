@@ -1,6 +1,6 @@
 # Now using while loops to improve this process and support more than 3 events. This is still the foundation of the logic however.
 
-list_events = ["MSA Meeting","Columbia Weekly Review","Internal CC Meeting"]
+list_events = ["e1","e2","e3"]
 count_events = len(list_events) -1
 
 print("It's time to track your time!")
