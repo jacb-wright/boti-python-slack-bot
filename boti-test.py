@@ -43,7 +43,7 @@ BOT_ID = client.api_call("auth.test")['user_id']
 
 
 # Integrate with Ravi's code to define list of calendar events for current day
-list_events = ["MSA Meeting","Columbia Weekly Review","Internal CC Meeting","e4","e5"]
+list_events = ["e1","e2","e3","e4","e5"]
 #list_events = my_list_events
 count_events = len(list_events)
 
